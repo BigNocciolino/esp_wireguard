@@ -1,0 +1,5 @@
+version: "1.0.0"
+description: Wireguard implementation for esp-idf.
+url: https://github.com/BigNocciolino/esp_wireguard
+dependencies:
+  idf: ">=4.1"
