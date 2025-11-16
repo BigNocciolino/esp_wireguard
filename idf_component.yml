@@ -1,4 +1,7 @@
 ---
 version: "0.4.2"
 description: Wireguard implementation for ESP-IDF
-url: git@github.com:BigNocciolino/esp_wireguard.git
+url: https://github.com/BigNocciolino/esp_wireguard.git
+
+dependencies:
+  libsodium: "^1.0.20~2"
