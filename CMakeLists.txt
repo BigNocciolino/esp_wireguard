@@ -9,7 +9,7 @@ idf_component_register (
          "src/crypto/refc/poly1305-donna.c"
          "src/esp_wireguard.c"
 
-    INCLUDE_DIRS "include"
+    INCLUDE_DIRS "include" "src"
     PRIV_INCLUDE_DIRS "src"
-    REQUIRES esp_netif lwip mbedtls
+    REQUIRES esp_netif lwip mbedtls libsodium
 )
