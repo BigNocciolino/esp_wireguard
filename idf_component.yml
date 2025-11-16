@@ -1,0 +1,4 @@
+---
+version: "0.4.2"
+description: Wireguard implementation for ESP-IDF
+url: git@github.com:BigNocciolino/esp_wireguard.git
